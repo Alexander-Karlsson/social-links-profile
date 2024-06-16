@@ -1,0 +1,103 @@
+/* 
+-- TYPOGRAPHY --
+*/
+/* 
+FONT FAMILY 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+/* 
+FONT WEIGHTS
+- 400 
+- 600 
+- 700 
+*/
+/*
+
+-- COLORS --
+
+--PRIMARY--
+
+- Green: hsl(75, 94%, 57%)
+
+--NEUTRAL--
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 20%)
+- Dark Grey: hsl(0, 0%, 12%)
+- Off Black: hsl(0, 0%, 8%) 
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  align-content: center;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  width: 375px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 14px;
+}
+
+.avatar-img {
+  width: 90px;
+  border-radius: 100%;
+  margin-bottom: 24px;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+
+.short-bio {
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffffad;
+  margin-bottom: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  text-align: center;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.nav-links .link-btn:last-child {
+  margin-bottom: 0;
+}
+
+.link-btn {
+  margin-bottom: 16px;
+  padding: 12px 90px;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.link-btn:hover {
+  background-color: hsl(0, 0%, 23%);
+}
